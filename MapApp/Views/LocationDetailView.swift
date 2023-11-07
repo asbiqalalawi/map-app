@@ -49,7 +49,7 @@ extension LocationDetailView {
                 Image($0)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: UIScreen.main.bounds.width)
+                    .frame(width: UIDevice.current.userInterfaceIdiom == .pad ? nil : UIScreen.main.bounds.width)
                     .clipped()
             }
         }
@@ -92,7 +92,7 @@ extension LocationDetailView {
                 LocationMapAnotationView()
             }
         }
-        .allowsHitTesting(/*@START_MENU_TOKEN@*/false/*@END_MENU_TOKEN@*/)
+        .allowsHitTesting(false)
         .aspectRatio(1, contentMode: .fit)
         .cornerRadius(30)
     }
@@ -104,7 +104,6 @@ extension LocationDetailView {
             Image(systemName: "xmark")
                 .font(.headline)
                 .padding()
-                .foregroundStyle(.black)
                 .background(.thickMaterial)
                 .cornerRadius(10)
                 .shadow(radius: 4)

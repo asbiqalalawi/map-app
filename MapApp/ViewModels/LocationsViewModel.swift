@@ -29,11 +29,7 @@ class LocationsViewModel: ObservableObject {
     )
     
     // Regio map detail
-    @Published var mapRegionDetail = MapCameraPosition.region(MKCoordinateRegion()) {
-        didSet {
-            
-        }
-    }
+    @Published var mapRegionDetail = MapCameraPosition.region(MKCoordinateRegion())
     let mapSpanDetail = MKCoordinateSpan(
         latitudeDelta: 0.01,
         longitudeDelta: 0.01

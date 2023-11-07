@@ -11,6 +11,7 @@ import MapKit
 struct LocationsView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
+    let maxWidthForIpad: CGFloat = 700
     
     var body: some View {
         ZStack {
@@ -18,6 +19,7 @@ struct LocationsView: View {
             VStack() {
                 header
                     .padding()
+                    .frame(maxWidth: maxWidthForIpad)
                 Spacer()
                 locationPreviewStack
             }
@@ -50,7 +52,6 @@ extension LocationsView {
                             .padding()
                             .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
                     }
-                    .foregroundStyle(.black)
             }
             
             if vm.showLocationsList {
@@ -84,6 +85,8 @@ extension LocationsView {
                     LocationPreviewView(location: location)
                         .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/.opacity(0.3), radius: 20)
                         .padding()
+                        .frame(maxWidth: maxWidthForIpad)
+                        .frame(maxWidth: .infinity)
                         .transition(.asymmetric(
                             insertion: .move(edge: .trailing),
                             removal: .move(edge: .leading)
