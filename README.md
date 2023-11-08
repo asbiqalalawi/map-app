@@ -1,6 +1,6 @@
 # Map App with Swift
 
-A map application built using Swift that allows users to pin places on the map and view detailed information about those places.
+A map application built using Swift that can pin places on the map and view detailed information about those places.
 
 ## Table of Contents
 
@@ -8,10 +8,11 @@ A map application built using Swift that allows users to pin places on the map a
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Features](#features)
-- [Acknowledgements](#acknowledgements)
-<!---
+  - [iPhone](#iphone)
+  - [iPad](#ipad)
+  - [Dark Mode](#dark-mode)
 - [Screenshots](#screenshots)
--->
+- [Acknowledgements](#acknowledgements)
 
 
 ## Getting Started
@@ -46,11 +47,32 @@ pod install
 
 - **Pin Places:** Users can drop pins on the map to mark specific places of interest.
 - **View Place Details:** Users can tap on a pin to view detailed information about the place, including a description and additional details.
-<!--
+
 ## Screenshots
-![Screenshot 1](URL-to-Screenshot-1)
-![Screenshot 2](URL-to-Screenshot-2)
--->
+
+### iPhone
+<p>
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/Simulator%20Screenshot-iPhone15Pro-2023-11-08at11.01.11.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.01.13.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.01.17.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.01.21.png" width="200">
+</p>
+
+### iPad
+<p>
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPadPro(12.9-inch)(6th generation)-2023-11-08at10.58.03.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPadPro(12.9-inch)(6thgeneration)-2023-11-08at10.58.17.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPadPro(12.9-inch)(6thgeneration)-2023-11-08at10.58.26.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPadPro(12.9-inch)(6th generation)-2023-11-08at10.58.30.png" width="200">
+</p>
+
+### Dark Mode
+<p>
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.02.05.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.02.07.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.02.10.png" width="200">
+  <img src="https://raw.githubusercontent.com/asbiqalalawi/map-app/master/Screenshot/SimulatorScreenshot-iPhone15Pro-2023-11-08at11.02.13.png" width="200">
+</p>
 
 ## Acknowledgements
 
