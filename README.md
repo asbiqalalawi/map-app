@@ -8,10 +8,10 @@ A map application built using Swift that can pin places on the map and view deta
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Features](#features)
+- [Screenshots](#screenshots)
   - [iPhone](#iphone)
   - [iPad](#ipad)
   - [Dark Mode](#dark-mode)
-- [Screenshots](#screenshots)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -47,6 +47,7 @@ pod install
 
 - **Pin Places:** Users can drop pins on the map to mark specific places of interest.
 - **View Place Details:** Users can tap on a pin to view detailed information about the place, including a description and additional details.
+- **Dark Mode:** Users can enable a dark mode feature to enhance readability in low-light environments.
 
 ## Screenshots
 
